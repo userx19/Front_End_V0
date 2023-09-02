@@ -1,0 +1,29 @@
+.carousel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2em;
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+
+}
+
+.card {
+  width: 70%;
+ height: 60%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.card img {
+  margin-top:3em ;
+  max-width: 30em;
+  max-height: 90%;
+  object-fit: cover;
+}
+
+

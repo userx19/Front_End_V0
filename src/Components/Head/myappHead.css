@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap');
+
+.myappHead-Container {
+    display: flex;
+    
+    font-family: 'Roboto',sans-serif;
+    background-color: transparent;
+    font-weight: 400;
+    max-height: 4em;
+    align-items: baseline;
+    color: #344f66;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;   
+    justify-content: space-between;
+    transition: 0.5s ease-in-out;
+   
+  }
+  .scroll{
+    background-color: #344f66;
+    color:#fff;
+    
+  }
+  nav{
+    display: flex;
+    gap:5em;
+    padding-right:3em;
+    font-weight: 700;
+  }
+  .myappHead-Container>nav>ul {
+    display: flex;
+    gap: 2em;
+    list-style-type: none;
+    font-size: 1.2em;
+    align-self: flex-start;
+    
+    
+    
+  }
+  .myappHead-Container>button{
+    min-width: 8.5em;
+    border-radius: 10%;
+    align-self: center
+    
+    
+      }
+  .myappHead-Container>img {
+    padding: 1.5em;
+    max-width: 12em;
+    max-height: 5em;
+    align-self: center;
+    
+    
+  }
+  
