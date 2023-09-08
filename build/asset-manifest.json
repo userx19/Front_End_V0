@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Front_End_V0.git/static/css/main.5d680601.css",
-    "main.js": "/Front_End_V0.git/static/js/main.d10bff17.js",
-    "static/js/787.28cb0dcd.chunk.js": "/Front_End_V0.git/static/js/787.28cb0dcd.chunk.js",
-    "static/media/carnumber1.png": "/Front_End_V0.git/static/media/carnumber1.55fa235652835514ecd8.png",
-    "static/media/carnumber6.png": "/Front_End_V0.git/static/media/carnumber6.6803e0d70ffa90fc67c4.png",
-    "static/media/carnumber2.png": "/Front_End_V0.git/static/media/carnumber2.0707efe10d3a8560cb7c.png",
-    "static/media/carnumber3.png": "/Front_End_V0.git/static/media/carnumber3.a868e122a0ac7ad8aad9.png",
-    "static/media/carnumber5.png": "/Front_End_V0.git/static/media/carnumber5.99702bbdeffbf63ddb57.png",
-    "static/media/zionicon.png": "/Front_End_V0.git/static/media/zionicon.cba64cc41705774c1d99.png",
-    "static/media/carnumber4.png": "/Front_End_V0.git/static/media/carnumber4.b1e724498e0dccf2cc4d.png",
-    "index.html": "/Front_End_V0.git/index.html",
-    "main.5d680601.css.map": "/Front_End_V0.git/static/css/main.5d680601.css.map",
-    "main.d10bff17.js.map": "/Front_End_V0.git/static/js/main.d10bff17.js.map",
-    "787.28cb0dcd.chunk.js.map": "/Front_End_V0.git/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/Front_End_V0/static/css/main.5d680601.css",
+    "main.js": "/Front_End_V0/static/js/main.9972a73a.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Front_End_V0/static/js/787.28cb0dcd.chunk.js",
+    "static/media/carnumber1.png": "/Front_End_V0/static/media/carnumber1.55fa235652835514ecd8.png",
+    "static/media/carnumber6.png": "/Front_End_V0/static/media/carnumber6.6803e0d70ffa90fc67c4.png",
+    "static/media/carnumber2.png": "/Front_End_V0/static/media/carnumber2.0707efe10d3a8560cb7c.png",
+    "static/media/carnumber3.png": "/Front_End_V0/static/media/carnumber3.a868e122a0ac7ad8aad9.png",
+    "static/media/carnumber5.png": "/Front_End_V0/static/media/carnumber5.99702bbdeffbf63ddb57.png",
+    "static/media/zionicon.png": "/Front_End_V0/static/media/zionicon.cba64cc41705774c1d99.png",
+    "static/media/carnumber4.png": "/Front_End_V0/static/media/carnumber4.b1e724498e0dccf2cc4d.png",
+    "index.html": "/Front_End_V0/index.html",
+    "main.5d680601.css.map": "/Front_End_V0/static/css/main.5d680601.css.map",
+    "main.9972a73a.js.map": "/Front_End_V0/static/js/main.9972a73a.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Front_End_V0/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d680601.css",
-    "static/js/main.d10bff17.js"
+    "static/js/main.9972a73a.js"
   ]
 }
