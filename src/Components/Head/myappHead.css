@@ -17,6 +17,9 @@
   .scroll{
     background-color: #344f66;
     color:#fff;
+    position: fixed;
+    top: 0;
+    z-index: 100;
     
   }
   nav{
