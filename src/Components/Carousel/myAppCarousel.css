@@ -2,28 +2,37 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 2em;
 }
 
 .carousel-container {
   display: flex;
   align-items: center;
-
-}
-
-.card {
-  width: 70%;
- height: 60%;
-  display: flex;
   justify-content: flex-end;
   align-items: center;
+
 }
 
-.card img {
-  margin-top:3em ;
-  max-width: 30em;
-  max-height: 90%;
+
+.carousel-container img {
+  width: 450px;
+  height: 260px;
   object-fit: cover;
 }
 
+@media only screen and (max-width:1300px) {
+ .carousel{
+  padding-left: 170px;
+  margin-top: 50px;
+  }
+}
+@media only screen and (max-width:600px) {
+  .carousel{
+    margin-left: -2em;
+    margin-bottom: -3em;
+  }}
+@media only screen and (max-width: 430px){
+  .carousel{
+  transform: scale(0.8);
+}
 
+}

@@ -1,10 +1,11 @@
 
 import './myappHead.css';
-import zionicon from './zionicon.png'
+import zionicon from './zionicon.png';
+import MenuIcon from '@mui/icons-material/Menu';
 function MyappHead()
 {
     return(
-        <header className="myappHead-Container">
+        <div className="myappHead-Container">
             <img src={zionicon} id="mainLogo" alt="nOimg"/>
            <nav> 
             <ul>
@@ -14,8 +15,9 @@ function MyappHead()
                 <li>CONTACT</li>
             </ul>
             <button>Register</button>
+          <MenuIcon className='MIcon'/>
             </nav>
-        </header>
+        </div>
         
     )
 }

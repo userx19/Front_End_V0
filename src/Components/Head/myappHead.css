@@ -2,19 +2,16 @@
 
 .myappHead-Container {
     display: flex;
-    
     font-family: 'Roboto',sans-serif;
     background-color: transparent;
     font-weight: 400;
     max-height: 4em;
     align-items: baseline;
     color: #344f66;
-    position: fixed;
-    top: 0;
     width: 100%;
-    z-index: 999;   
     justify-content: space-between;
     transition: 0.5s ease-in-out;
+    overflow: hidden;
    
   }
   .scroll{
@@ -25,9 +22,9 @@
   nav{
     display: flex;
     gap:5em;
-    padding-right:3em;
     font-weight: 700;
   }
+  
   .myappHead-Container>nav>ul {
     display: flex;
     gap: 2em;
@@ -51,6 +48,23 @@
     max-height: 5em;
     align-self: center;
     
-    
   }
-  
+.MIcon{
+  visibility: hidden;
+}
+@media only screen and (max-width:900px){
+
+  .MIcon{
+    visibility: visible;
+    margin-left: -10em;
+    font-size: 40px!important;
+    padding-top: 0.2em;
+    cursor: pointer;
+  }
+  nav>ul{visibility: hidden;}
+  nav>button{visibility: hidden;}
+}
+@media only screen and (max-width:600px){
+  .MIcon{
+    margin-left: -15em;}
+}

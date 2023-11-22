@@ -21,6 +21,7 @@
 }
 
 .zone2-1{
+  display: flex;
   flex-direction: column;
   flex-shrink: 0;
   margin: 10em 1em -1em 10em;
@@ -28,7 +29,6 @@
   text-align: center;
   }
 .zone2-1>p{
- 
   font-family: 'Barlow',sans-serif;
   font-size: 1.2em;
   margin: 0em 0em 0.2em 5em;
@@ -88,3 +88,91 @@ footer>h1{max-width: 15em;align-self: center;font-size: 1.4em;}
 footer>p{font-weight: 300;
   font-size: 0.8em;
 max-width: 11em;align-self: center;}
+
+.smallScreenP{
+  align-self: flex-start;
+  text-align:  center;
+  visibility: hidden;
+  font-family: 'Barlow',sans-serif;
+  font-size:1.5em;
+  color: #0d141a4e;
+   height: 3em;
+
+
+}
+.fillerZoneCards{
+  padding:2em;
+  display:flex;
+  flex-direction:row}
+  .footerEnd{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    background-color:#344f66;
+    color:white;
+    line-height:2.5em
+  }
+.footfiller{ padding-right: 10px;}
+
+
+@media only screen and (max-width:1300px) {
+    .zone2{flex-direction:column;}
+    .zone2-1>p{
+      visibility: hidden;
+    flex-shrink: 1;
+    margin-top: -6em;}
+    .zone2-1>h2{
+      margin-left: -1.5em;
+    }
+    .smallScreenP{visibility: visible;
+   margin-bottom: -0.7em;
+   margin-left: 7em;}
+}
+@media only screen and (max-width:900px){
+  #component-outlined{
+    max-width: 150px;
+  }
+}
+@media only screen and (max-width:760px){
+  .footerEnd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .footerEnd .footfiller{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footerEnd .footfiller ul{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 50px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .zone2-1>h2{transform: scale(0.8);}
+  
+  .smallScreenP{visibility: visible;
+  margin-left: 4.8em;
+  }
+  #searchArea{
+    transform: scale(0.6);
+    height: 0.5em;
+    margin-left: -1.2em;
+  }
+  #TFIcon{transform: scale(0.8);
+    margin-left: -0.3em;
+  width: 0.5em;}
+  .fillerZone>h1{transform: scale(0.8);}
+  .fillerZoneCards{display: flex;flex-direction: column;}
+
+}
+@media only screen and (max-width:430px){
+  .smallScreenP{margin-bottom: 10px;}
+}

@@ -1,14 +1,7 @@
 import React, { useState,useEffect } from 'react';
 import './myAppCarousel.css';
 
-const Card = ({src, alt}) => {
-  return (
-    <div className="card">
-      <img src={src} alt={alt} />
-    </div>
-    
-  );
-};
+
 
 const Carousel = () => {
  // const [data, setData] = useState([]);
@@ -32,12 +25,9 @@ const Carousel = () => {
   
   return (
     <div className="carousel">
-      {
-     (
         <div className="carousel-container">
-          <Card src={require(`../../images/carnumber${[currentIndex]}.png`)} alt={[currentIndex].value} />
+          <img src={require(`../../images/carnumber${[currentIndex]}.png`)} alt={[currentIndex].value} />
         </div>
-      )}
     </div>
   );
 };
