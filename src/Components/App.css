@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@100;400;500;700;900&display=swap');
-
+body{margin: 0;}
 .zone1 {
+  margin: 0;
   display: flex;
   flex-direction: column;
   background-color: rgba(201, 202, 202, 0.048);
@@ -75,7 +76,9 @@ button {
   max-height: 1.5em;
   align-content: center;
 }
-footer{  background-color: #344f6605;
+footer{  
+  margin: 0;
+  background-color: #344f6605;
   display: flex;
   flex-direction: column;
 text-align:center;
@@ -105,6 +108,8 @@ max-width: 11em;align-self: center;}
   display:flex;
   flex-direction:row}
   .footerEnd{
+    width: 100%;
+    margin: 0;
     display:flex;
     flex-direction:row;
     justify-content:space-evenly;
@@ -112,7 +117,8 @@ max-width: 11em;align-self: center;}
     color:white;
     line-height:2.5em
   }
-.footfiller{ padding-right: 10px;}
+.footfiller{  
+    margin: 0; padding-right: 10px;}
 
 
 @media only screen and (max-width:1300px) {
