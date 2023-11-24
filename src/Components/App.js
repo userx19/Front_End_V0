@@ -55,7 +55,7 @@ function App() {
     />
       <TextField
       id="searchArea" 
-      placeholder='Killomerters'
+      placeholder='Killometers'
         size="Normal"
         sx={{  m:'0.1em',width: '19ch',backgroundColor:'#fff'}}
         InputProps={{
