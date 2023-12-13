@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/Front_End_V0/static/css/main.89aa3924.css",
-    "main.js": "/Front_End_V0/static/js/main.cd1bbfd5.js",
+    "main.css": "/Front_End_V0/static/css/main.d0d0e347.css",
+    "main.js": "/Front_End_V0/static/js/main.b193889d.js",
     "static/media/carnumber1.png": "/Front_End_V0/static/media/carnumber1.55fa235652835514ecd8.png",
-    "static/media/carnumber6.png": "/Front_End_V0/static/media/carnumber6.6803e0d70ffa90fc67c4.png",
     "static/media/carnumber2.png": "/Front_End_V0/static/media/carnumber2.0707efe10d3a8560cb7c.png",
     "static/media/carnumber3.png": "/Front_End_V0/static/media/carnumber3.a868e122a0ac7ad8aad9.png",
     "static/media/carnumber5.png": "/Front_End_V0/static/media/carnumber5.99702bbdeffbf63ddb57.png",
     "static/media/zionicon.png": "/Front_End_V0/static/media/zionicon.cba64cc41705774c1d99.png",
     "static/media/carnumber4.png": "/Front_End_V0/static/media/carnumber4.b1e724498e0dccf2cc4d.png",
     "index.html": "/Front_End_V0/index.html",
-    "main.89aa3924.css.map": "/Front_End_V0/static/css/main.89aa3924.css.map",
-    "main.cd1bbfd5.js.map": "/Front_End_V0/static/js/main.cd1bbfd5.js.map"
+    "main.d0d0e347.css.map": "/Front_End_V0/static/css/main.d0d0e347.css.map",
+    "main.b193889d.js.map": "/Front_End_V0/static/js/main.b193889d.js.map"
   },
   "entrypoints": [
-    "static/css/main.89aa3924.css",
-    "static/js/main.cd1bbfd5.js"
+    "static/css/main.d0d0e347.css",
+    "static/js/main.b193889d.js"
   ]
 }
